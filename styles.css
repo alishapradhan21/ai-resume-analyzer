@@ -1,0 +1,105 @@
+/* Entire page background and text color */
+body, .css-18e3th9 {
+    background-color: #f0f8ff !important;  /* Light bright blue shade */
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main container padding and max width */
+.css-18e3th9 {
+    padding: 2rem 1rem 4rem 1rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #023e8a;
+    font-weight: 700;
+}
+
+/* Styled buttons */
+.stButton>button {
+    background-color: #0077b6;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.stButton>button:hover {
+    background-color: #0096c7;
+}
+
+/* Tool buttons inside HTML */
+.tool-btn {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.tool-btn:hover {
+    background-color: #0096c7;
+}
+
+/* Input boxes and dropdowns */
+.stTextInput>div>div>input,
+.stSelectbox>div>div>div,
+.stRadio>div>div {
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid #90e0ef;
+    font-size: 1rem;
+}
+
+/* File uploader styling */
+.css-1d391kg {
+    border: 1px solid #90e0ef;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #caf0f8;
+}
+
+/* Metrics style */
+.stMetric > div {
+    background-color: #00b4d8;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: 700;
+}
+
+/* Admin expander styling */
+[aria-expanded="true"] > .streamlit-expanderHeader {
+    color: #0077b6;
+    font-weight: 700;
+}
+
+/* Links styling */
+a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive: mobile-friendly layout */
+@media (max-width: 600px) {
+    .css-18e3th9 {
+        padding: 1rem 0.5rem 2rem 0.5rem;
+        max-width: 100%;
+    }
+    .stButton>button, .tool-btn {
+        width: 100%;
+        font-size: 1.1rem;
+        padding: 15px 0;
+    }
+}
