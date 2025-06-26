@@ -1,0 +1,5 @@
+streamlit
+pdfplumber
+pandas
+sqlite3
+# Add other packages your app uses
